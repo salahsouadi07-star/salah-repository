@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>something</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div CLASS="container">
+
+    <div class="box box1">
+    <img src="gta-5-stretch-we07aio0azg2vq3y.webp" alt="Image 1">
+    <h2>GTA 5</h2>
+    <p>Un jeu en monde ouvert qui offre une liberté totale dans la ville de Los Santos.
+        Tu peux suivre une histoire captivante avec trois personnages différents ou simplement explorer.</p>
+    <button>Button</button>
+    </div>
+
+    <div class="box box2">
+    <img src="maxresdefault.webp" alt="Image 1">
+    <h2>FC 26</h2>
+    <p>Un jeu de simulation de football réaliste avec des équipes et joueurs inspirés du monde réel. Tu peux jouer en mode carrière, en ligne, ou entre amis.
+        Le gameplay demande de la technique et une bonne maîtrise du jeu.</p>
+    <button>Button</button>
+    </div>
+
+    <div class="box box3">
+    <img src="valorant-jett-and-chamber-5y6lnxoiqmodvyfy.jpg" alt="Image 1">
+    <h2>VALORANT</h2>
+    <p>Un jeu de tir tactique en équipe (5 contre 5) où chaque joueur choisit un agent avec des capacités spéciales.
+        Il ne suffit pas d'avoir une bonne précision : la stratégie et le travail d'équipe sont essentiels pour gagner.</p>
+    <button>Button</button>
+    </div>
+
+    <div class="box box4">
+    <img src="Vanilla-PMP_Collection-Carousel-0_Buzzy-Bees_1280x768.jpg" alt="Image 1">
+    <h2>MINECRAFT</h2>
+    <p>Un jeu de type sandbox qui te permet de construire et créer sans limites.
+        Tu peux laisser libre cours à ton imagination ou survivre dans un monde rempli de créatures. Simple visuellement, mais très riche en possibilités.</p>
+    <button>Button</button>
+    </div>
+
+    <div class="box box5">
+    <img src="hollow-night-silksong-key-art-ps5-01jul25.webp" alt="Image 1">
+    <h2>HOLLOW NIGHT SILKSONG</h2>
+    <p>Un jeu de tir tactique en équipe (5 contre 5) où chaque joueur choisit un agent avec des capacités spéciales.
+        Il ne suffit pas d'avoir une bonne précision : la stratégie et le travail d'équipe sont essentiels pour gagner.</p>
+    <button>Button</button>
+    </div>
+
+    <div class="box box6">
+    <img src="maxresdefault.webp" alt="Image 1">
+    <h2>MINECRAFT</h2>
+    <p>Un jeu de type sandbox qui te permet de construire et créer sans limites.
+        Tu peux laisser libre cours à ton imagination ou survivre dans un monde rempli de créatures. Simple visuellement, mais très riche en possibilités.</p>
+    <button>Button</button>
+    </div>
+
+</div> 
+</body>
+</html>
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+.container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 20px;
+align-items: center;
+
+}
+.box img {
+max-width: 100%;
+height: auto;
+border-radius: 5px;
+padding:30px ;
+
+}
+.box {
+background-color:#74787b;
+padding: 60px;
+border-radius: 10px;
+text-align: center;
+transition: transform 0.3s ease;
+flex-direction: column;
+}
+button{
+color: rgb(5, 1, 8);
+border-radius: 5px;
+background-color: #3f4346;
+}
+.box:hover {
+transform: scale(1.05);
+}
+.box1 {
+grid-column: 1 / 2;
+grid-row: 1 / 2;
+}
+.box2 {
+grid-column: 2 / 4;
+grid-row: 1 / 2;
+}
+.box3 {
+grid-column: 1 / 2;
+grid-row: 2 / 3;
+}
+.box4 {
+grid-column: 2 / 3;
+grid-row: 2 / 3;
+}
+.box5 {
+grid-column: 3 / 4;
+grid-row: 2 / 3;
+}
+.box6 {
+grid-column: 1 / 4;
+grid-row: 3 / 4;
+}
+
+
+
